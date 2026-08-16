@@ -1,4 +1,5 @@
-﻿using Note.Application.DTOs;
+﻿using Microsoft.EntityFrameworkCore;
+using Note.Application.DTOs;
 using Note.Application.Interfaces.Repositories;
 using Note.Domain.Entities;
 using Note.Infrastructure.Data;
