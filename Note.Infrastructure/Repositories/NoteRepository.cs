@@ -2,7 +2,6 @@
 using Note.Application.Interfaces.Repositories;
 using Note.Domain.Entities;
 using Note.Infrastructure.Data;
-using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
 namespace Note.Infrastructure.Repositories
