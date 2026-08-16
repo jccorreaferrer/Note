@@ -1,0 +1,183 @@
+Listado de rutas de carpetas para el volumen Datos
+El número de serie del volumen es 000000A9 4C6E:767E
+D:.
+¦   Note.slnx
+¦   solution_layout.txt
+¦   
++---Note.Api
+¦   ¦   appsettings.Development.json
+¦   ¦   appsettings.json
+¦   ¦   Note.Api.csproj
+¦   ¦   Note.Api.csproj.user
+¦   ¦   Note.Api.http
+¦   ¦   Program.cs
+¦   ¦   
+¦   +---bin
+¦   ¦   +---Debug
+¦   ¦       +---net10.0
+¦   +---Controllers
+¦   ¦   +---Base
+¦   ¦   ¦       BaseController.cs
+¦   ¦   ¦       
+¦   ¦   +---V1
+¦   ¦           NoteController.cs
+¦   ¦           
+¦   +---obj
+¦   ¦   ¦   Note.Api.csproj.nuget.dgspec.json
+¦   ¦   ¦   Note.Api.csproj.nuget.g.props
+¦   ¦   ¦   Note.Api.csproj.nuget.g.targets
+¦   ¦   ¦   project.assets.json
+¦   ¦   ¦   project.nuget.cache
+¦   ¦   ¦   
+¦   ¦   +---Debug
+¦   ¦       +---net10.0
+¦   ¦           ¦   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+¦   ¦           ¦   Note.Api.AssemblyInfo.cs
+¦   ¦           ¦   Note.Api.AssemblyInfoInputs.cache
+¦   ¦           ¦   Note.Api.assets.cache
+¦   ¦           ¦   Note.Api.csproj.AssemblyReference.cache
+¦   ¦           ¦   Note.Api.csproj.CoreCompileInputs.cache
+¦   ¦           ¦   Note.Api.csproj.FileListAbsolute.txt
+¦   ¦           ¦   Note.Api.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦           ¦   Note.Api.GlobalUsings.g.cs
+¦   ¦           ¦   Note.Api.MvcApplicationPartsAssemblyInfo.cache
+¦   ¦           ¦   rpswa.dswa.cache.json
+¦   ¦           ¦   staticwebassets.removed.txt
+¦   ¦           ¦   
+¦   ¦           +---ref
+¦   ¦           +---refint
+¦   ¦           +---staticwebassets
+¦   +---Properties
+¦           launchSettings.json
+¦           
++---Note.Application
+¦   ¦   Note.Application.csproj
+¦   ¦   
+¦   +---bin
+¦   ¦   +---Debug
+¦   ¦       +---net10.0
+¦   ¦               Note.Application.deps.json
+¦   ¦               Note.Application.dll
+¦   ¦               Note.Application.pdb
+¦   ¦               Note.Domain.dll
+¦   ¦               Note.Domain.pdb
+¦   ¦               
+¦   +---DTOs
+¦   ¦       NoteGetByIdsDTO.cs
+¦   ¦       NoteInsertDTO.cs
+¦   ¦       NoteReadDTO.cs
+¦   ¦       
+¦   +---Interfaces
+¦   ¦   +---Repositories
+¦   ¦   ¦       INoteRepository.cs
+¦   ¦   ¦       
+¦   ¦   +---Services
+¦   ¦           INoteService.cs
+¦   ¦           
+¦   +---Mapping
+¦   ¦       NoteMapping.cs
+¦   ¦       
+¦   +---obj
+¦   ¦   ¦   Note.Application.csproj.nuget.dgspec.json
+¦   ¦   ¦   Note.Application.csproj.nuget.g.props
+¦   ¦   ¦   Note.Application.csproj.nuget.g.targets
+¦   ¦   ¦   project.assets.json
+¦   ¦   ¦   project.nuget.cache
+¦   ¦   ¦   
+¦   ¦   +---Debug
+¦   ¦       +---net10.0
+¦   ¦           ¦   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+¦   ¦           ¦   Note.App.3AE7437E.Up2Date
+¦   ¦           ¦   Note.Application.AssemblyInfo.cs
+¦   ¦           ¦   Note.Application.AssemblyInfoInputs.cache
+¦   ¦           ¦   Note.Application.assets.cache
+¦   ¦           ¦   Note.Application.csproj.AssemblyReference.cache
+¦   ¦           ¦   Note.Application.csproj.CoreCompileInputs.cache
+¦   ¦           ¦   Note.Application.csproj.FileListAbsolute.txt
+¦   ¦           ¦   Note.Application.dll
+¦   ¦           ¦   Note.Application.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦           ¦   Note.Application.GlobalUsings.g.cs
+¦   ¦           ¦   Note.Application.pdb
+¦   ¦           ¦   
+¦   ¦           +---ref
+¦   ¦           ¦       Note.Application.dll
+¦   ¦           ¦       
+¦   ¦           +---refint
+¦   ¦                   Note.Application.dll
+¦   ¦                   
+¦   +---Services
+¦           NoteService.cs
+¦           
++---Note.Domain
+¦   ¦   Note.Domain.csproj
+¦   ¦   
+¦   +---bin
+¦   ¦   +---Debug
+¦   ¦       +---net10.0
+¦   ¦               Note.Domain.deps.json
+¦   ¦               Note.Domain.dll
+¦   ¦               Note.Domain.pdb
+¦   ¦               
+¦   +---Entities
+¦   ¦       Note.cs
+¦   ¦       
+¦   +---obj
+¦       ¦   Note.Domain.csproj.nuget.dgspec.json
+¦       ¦   Note.Domain.csproj.nuget.g.props
+¦       ¦   Note.Domain.csproj.nuget.g.targets
+¦       ¦   project.assets.json
+¦       ¦   project.nuget.cache
+¦       ¦   
+¦       +---Debug
+¦           +---net10.0
+¦               ¦   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+¦               ¦   Note.Domain.AssemblyInfo.cs
+¦               ¦   Note.Domain.AssemblyInfoInputs.cache
+¦               ¦   Note.Domain.assets.cache
+¦               ¦   Note.Domain.csproj.CoreCompileInputs.cache
+¦               ¦   Note.Domain.csproj.FileListAbsolute.txt
+¦               ¦   Note.Domain.dll
+¦               ¦   Note.Domain.GeneratedMSBuildEditorConfig.editorconfig
+¦               ¦   Note.Domain.GlobalUsings.g.cs
+¦               ¦   Note.Domain.pdb
+¦               ¦   
+¦               +---ref
+¦               ¦       Note.Domain.dll
+¦               ¦       
+¦               +---refint
+¦                       Note.Domain.dll
+¦                       
++---Note.Infrastructure
+    ¦   DependencyInjection.cs
+    ¦   Note.Infrastructure.csproj
+    ¦   
+    +---bin
+    ¦   +---Debug
+    ¦       +---net10.0
+    +---Data
+    ¦       NoteDbContext.cs
+    ¦       
+    +---obj
+    ¦   ¦   Note.Infrastructure.csproj.nuget.dgspec.json
+    ¦   ¦   Note.Infrastructure.csproj.nuget.g.props
+    ¦   ¦   Note.Infrastructure.csproj.nuget.g.targets
+    ¦   ¦   project.assets.json
+    ¦   ¦   project.nuget.cache
+    ¦   ¦   
+    ¦   +---Debug
+    ¦       +---net10.0
+    ¦           ¦   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+    ¦           ¦   Note.Infrastructure.AssemblyInfo.cs
+    ¦           ¦   Note.Infrastructure.AssemblyInfoInputs.cache
+    ¦           ¦   Note.Infrastructure.assets.cache
+    ¦           ¦   Note.Infrastructure.csproj.AssemblyReference.cache
+    ¦           ¦   Note.Infrastructure.csproj.CoreCompileInputs.cache
+    ¦           ¦   Note.Infrastructure.csproj.FileListAbsolute.txt
+    ¦           ¦   Note.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+    ¦           ¦   Note.Infrastructure.GlobalUsings.g.cs
+    ¦           ¦   
+    ¦           +---ref
+    ¦           +---refint
+    +---Repositories
+            NoteRepository.cs
+            
